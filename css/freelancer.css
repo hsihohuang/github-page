@@ -507,3 +507,13 @@ footer .footer-below {
     max-height: 480px;
     margin: 0 auto;
 }
+
+.my-a{
+    text-decoration:none;
+    color: #FFF;
+}
+
+.my-a:hover{
+    text-decoration:underline;
+    color: #158597;
+}
