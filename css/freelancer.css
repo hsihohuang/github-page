@@ -515,5 +515,5 @@ footer .footer-below {
 
 .my-a:hover{
     text-decoration:underline;
-    color: #158597;
+    color: rgba(24,188,156,.9);
 }
