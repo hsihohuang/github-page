@@ -82,11 +82,11 @@ hr.star-light:after {
 }
 
 hr.star-blue {
-    border-color: #fff;
+    border-color: #ECF0F1;
 }
 
 hr.star-blue:after {
-    color: #fff;
+    color: #ECF0F1;
     background-color: #16BDC0;
 }
 
