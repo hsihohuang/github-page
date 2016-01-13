@@ -21,7 +21,7 @@ p {
 p.mid {
     font-size: 18px;
 	font-weight:bold;
-	color: #000000;
+	color: #2c3e50;
 }
 
 p.small {
@@ -50,6 +50,7 @@ h6 {
 
 hr.star-video,
 hr.star-light,
+hr.star-blue,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -60,6 +61,7 @@ hr.star-primary {
 }
 hr.star-video:after,
 hr.star-light:after,
+hr.star-blue:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
@@ -77,6 +79,15 @@ hr.star-light {
 hr.star-light:after {
     color: #fff;
     background-color: #158597;
+}
+
+hr.star-blue {
+    border-color: #fff;
+}
+
+hr.star-blue:after {
+    color: #fff;
+    background-color: #16BDC0;
 }
 
 hr.star-video {
@@ -203,7 +214,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #158597;
+    background: #16BDC0;
 }
 
 section.success a,
