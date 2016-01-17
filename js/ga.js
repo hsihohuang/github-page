@@ -5,8 +5,8 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-72527374-1', 'auto');
-  ga(‘require’, ‘displayfeatures’);
-  ga(‘require’, ‘linkid’, ‘linkid.js’);
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 
 </script>
