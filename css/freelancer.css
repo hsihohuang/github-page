@@ -520,17 +520,22 @@ footer .footer-below {
 }
 
 .my-a{
-    text-decoration:none;
     color:  #FFF;
     font-size: 17px;
+    border-bottom: 1px dashed;
 }
 
 .my-a:hover{
     text-decoration:none;
     color:  #16BDC0;
+    border-bottom-style:none;
 }
 
+p.interest span{
+    border-bottom: 1px dashed;
+}
 
 p.interest span:hover{
     color:  #16BDC0;
+    border-bottom-style:none;
 }
