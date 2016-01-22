@@ -539,3 +539,13 @@ p.interest span:hover{
     color:  #16BDC0;
     border-bottom-style:none;
 }
+
+.mytooltip + .tooltip > .tooltip-inner {
+  background-color: #6D7073; 
+  border: 1px solid #FFF; 
+  font-size: 15px;
+}
+
+.mytooltip + .tooltip.right > .tooltip-arrow {
+  border-right: 6px solid #FFF;
+}
