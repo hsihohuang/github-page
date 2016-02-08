@@ -17,6 +17,12 @@ Dual licensed under MIT and GNU GPLv2 Nicolas Gallagher
  * Dual licensed under MIT and GNU GPLv2.
  */
 
+body {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color:#333;
+  background:#158597;
+}
+
 .oval-quotes {
   position:relative;
   width:350px;
@@ -35,7 +41,7 @@ Dual licensed under MIT and GNU GPLv2 Nicolas Gallagher
 .oval-quotes p {
   width:250px;
   height:250px;
-  padding:50px 0 0;
+  padding:30px 0 0;
   margin:0 auto;
   text-align:center;
   font-size:20px;
@@ -88,4 +94,13 @@ Dual licensed under MIT and GNU GPLv2 Nicolas Gallagher
   /* reduce the damage in FF3.0 */
   display:block;
   width:0;
+}
+
+
+.oval-quotes + p {
+  position:relative; /* part of the IE8 width compromise */
+  width:150px;
+  margin:0 0 2em;
+  font-size:18px;
+  font-weight:bold;
 }
