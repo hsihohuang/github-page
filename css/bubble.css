@@ -1,0 +1,91 @@
+/* ------------------------------------------
+PURE CSS SPEECH BUBBLES
+by Nicolas Gallagher
+- http://nicolasgallagher.com/pure-css-speech-bubbles/
+
+http://nicolasgallagher.com
+http://twitter.com/necolas
+
+Created: 02 March 2010
+Version: 1.2 (03 March 2011)
+
+Dual licensed under MIT and GNU GPLv2 Nicolas Gallagher
+------------------------------------------ */
+ 
+ /*!
+ * Modified by HsiHo Huang
+ * Dual licensed under MIT and GNU GPLv2.
+ */
+
+.oval-quotes {
+  position:relative;
+  width:350px;
+  height:250px;
+  margin:2em auto 10px;
+  color:#000;
+  background:#F7D24D;
+  -webkit-border-top-left-radius:400px 350px;
+  -webkit-border-top-right-radius:400px 350px;
+  -webkit-border-bottom-right-radius:400px 350px;
+  -webkit-border-bottom-left-radius:400px 350px;
+  -moz-border-radius:400px / 350px;
+  border-radius:400px / 350px;
+}
+
+.oval-quotes p {
+  width:250px;
+  height:250px;
+  padding:50px 0 0;
+  margin:0 auto;
+  text-align:center;
+  font-size:20px;
+}
+
+/* creates smaller curve */
+.oval-quotes p:before {
+  content:"";
+  position:absolute;
+  z-index:-1;
+  top: 120px;
+  left:-20px;
+  right:55%;
+  width:60px; /* wider than necessary to make it look a bit better in IE8 */
+  height:80px;
+  background:#158597; /* need this for webkit - bug in handling of border-radius */
+  /* css3 */
+  -webkit-border-bottom-right-radius:40px 80px;
+  -moz-border-radius-bottomright:40px 80px;
+  border-bottom-right-radius:40px 80px;
+  /* using translate to avoid undesired appearance in CSS2.1-capabable but CSS3-incapable browsers */
+  -webkit-transform:translate(-30px, -2px);
+  -moz-transform:translate(-30px, -2px);
+  -ms-transform:translate(-30px, -2px);
+  -o-transform:translate(-30px, -2px);
+  transform:translate(-30px, -2px);
+}
+
+/* creates larger curve */
+.oval-quotes p:after {
+  content:"";
+  position:absolute;
+  z-index:-2;
+  bottom:50px;
+  left:-30px;
+  right:25%;
+  height:80px;
+  border-right:200px solid #F7D24D;
+  background:#F7D24D; /* need this for webkit - bug in handling of border-radius */
+  /* css3 */
+  -webkit-border-bottom-right-radius:200px 100px;
+  -moz-border-radius-bottomright:200px 100px;
+  border-bottom-right-radius:200px 100px;
+  /* using translate to avoid undesired appearance in CSS2.1-capabable but CSS3-incapable browsers */
+  -webkit-transform:translate(0, -2px);
+  -moz-transform:translate(0, -2px);
+  -ms-transform:translate(0, -2px);
+  -o-transform:translate(0, -2px);
+  transform:translate(0, -2px);
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
