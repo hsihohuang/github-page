@@ -37,7 +37,7 @@
     margin: 0 auto;
 }
 
-/**-----------------------------------------------end*/
+/**----------------------YouTube video scale end*/
 
 
 .my-a{
@@ -48,8 +48,15 @@
 
 .my-a:hover{
     text-decoration:none;
-    color:  #16BDC0;
     border-bottom-style:none;
+}
+
+.my-btn-outline{
+    color:  #FFF;
+}
+
+.my-btn-social{
+    color:  #2C3E50;
 }
 
 p.interest span{
@@ -57,8 +64,11 @@ p.interest span{
 }
 
 p.interest span:hover{
-    color:  #16BDC0;
     border-bottom-style:none;
+}
+
+p.interest span:hover, .my-a:hover, .my-btn-social:hover{
+    color:  #16BDC0;
 }
 
 .mytooltip + .tooltip > .tooltip-inner {
