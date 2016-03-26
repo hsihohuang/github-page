@@ -80,3 +80,7 @@ p.interest span:hover, .my-a:hover, .my-btn-social:hover{
 .mytooltip + .tooltip.right > .tooltip-arrow {
   border-right: 6px solid #FFF;
 }
+
+.whiteText{
+    color:#fff;
+}
